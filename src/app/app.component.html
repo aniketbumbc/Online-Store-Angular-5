@@ -1,5 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="app-root">
-<h1>{{product.name}}</h1>
-<span>{{product.sku}}</span>
+<app-products-list
+    [productList]="products"
+    (onProductSelected)="productWasSelected($event)">
+</app-products-list>
 </div>
