@@ -4,6 +4,6 @@ export class Product {
         public name: string,
         public imageUrl: string,
         public department: string[],
-        public region:string,
+        //public region:string,
         public price: number) { }
 }
